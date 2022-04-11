@@ -1,0 +1,15 @@
+@import './variables.scss';
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.layout{
+    display: flex;
+    background-color: $theme-lightbg;
+}
+.page-section{
+    background-color: white;
+    flex: 1;
+    border-radius: 25px;
+    padding: 25px;
+}

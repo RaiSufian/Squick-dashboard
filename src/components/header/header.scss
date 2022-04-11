@@ -1,0 +1,128 @@
+.header-heading{
+    h2{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 20px;
+        margin-top: 0px;
+        color: #06152B;
+
+    }
+    span{
+        font-family: Inter;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+        margin-top: 0px;
+        color: #809FB8;
+    }
+}
+.header-items{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+.profile-img{
+    width: 52px;
+    height: 52px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 62px;
+        object-fit: cover;
+    }
+}
+.language-icons{
+    width: 52px;
+    height: 52px;
+    position: relative;
+    border: 2px solid #D9E1E7;
+    border-radius: 15px;
+    img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50px;
+
+    }
+}
+.notification{
+    width: 52px;
+    height: 52px;
+    position: relative;
+    border: 2px solid #D9E1E7;
+    border-radius: 15px;
+    img{
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 50px;
+
+    }
+    .noti-icon{
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        background-color: #0090FF;
+        border-radius: 6px;
+        border: 1px solid #fff;
+        top: 20%;
+        left: 53%;
+        z-index: 1;
+    }
+}
+.time-perid{
+    flex: 1;
+}
+.time-perid select{
+    border: 2px solid #D9E1E7;
+    border-radius: 15px;
+    height: 52px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    background-color: #F1F4F9 ;
+}
+.form-select:focus{
+    box-shadow: none !important;
+    outline: none;
+}
+.search-bar{
+    flex: 2;
+    position: relative;
+    button{
+        position: absolute;
+        top: 45%;
+        transform: translateY(-50%);
+        border: none;
+        background-color: transparent;
+        right: 20px;
+        color: #D9E1E7;
+        font-size: 18px;
+    }
+}
+.search-bar input{
+    height: 52px;
+    border: 2px solid #D9E1E7;
+    border-radius: 15px;
+}
+.search-bar input::placeholder{
+  
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #06152B;
+
+
+}

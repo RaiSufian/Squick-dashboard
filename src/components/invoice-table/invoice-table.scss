@@ -1,0 +1,71 @@
+.invoiceData-table{
+    .ant-table-content table{
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+}
+.ant-table-thead{
+    .ant-table-cell{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #809FB8;
+        padding: 20px 0px;
+    }
+}
+.ant-table-tbody{
+    .ant-table-cell{
+        font-family: 'Inter', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+            padding: 15px 0px;
+            .table-amount{
+                font-family: 'Inter', sans-serif;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 22px;
+                color: #1AD598;
+            }
+            .paid{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                color:#1AD598;
+                text-transform: uppercase;
+                background: #1AD59866;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .pending{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                color: #99B2C6;
+                text-transform: uppercase;
+                background: rgba(153, 178, 198, 0.4);
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .unpaid{
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                color: #EA3A3D;
+                text-transform: uppercase;
+                background: #EA3A3D66;
+                padding: 5px;
+                border-radius: 5px;
+            }
+            .details{
+                padding: 8px;
+                border-radius: 10px;
+                border: 1px solid #809FB8;
+                color: #809FB8;
+            }
+    }
+}

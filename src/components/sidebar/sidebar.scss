@@ -1,0 +1,53 @@
+@import '../../css/variables.scss';
+.sidebar{
+    width: 15%;
+}
+
+.main-menu{
+    ul{
+        list-style: none;
+        padding-left: 0px;
+    }
+    .nav-items{
+    margin: 5px 0px;
+    padding: 18px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: $theme-primaryColor;
+    display: flex ;
+    gap: 15px;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+        img{
+            width: 20px;
+            height: 20px;
+        }
+        
+    }
+    .nav-items.active{
+        color: #fff;
+        background-color: $theme-color;
+    }
+}
+
+
+
+@media screen and (max-width:1024px){
+    .sidebar{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:990px){
+    .sidebar{
+        width: 25%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        height: 100vh;
+        transform: translateX(-100%);
+    }
+}
