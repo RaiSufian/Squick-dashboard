@@ -144,6 +144,7 @@ const Home = () => {
                       <span>5 minutes ago</span>
                     </div>
                   </div>
+                  
                   <p>£129.00</p>
                 </div>
                 <div class="sales-details d-flex justify-content-between algin-items-center pt-4">
