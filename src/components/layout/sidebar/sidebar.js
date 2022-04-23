@@ -1,12 +1,12 @@
 import React from "react";
 import "./sidebar.scss";
-import Logo from "../../img/image 1.png";
-import bashboardWhite from '../../img/dashboard.png';
-import salesIcon from '../../img/sales.svg';
-import productIcon from '../../img/products.svg';
-import customerIcon from '../../img/customers.svg';
-import profileIcon from '../../img/profile.svg';
-import settingIcon from '../../img/settings.svg';
+import Logo from "../../../img/image 1.png";
+import bashboardWhite from '../../../img/dashboard.png';
+import salesIcon from '../../../img/sales.svg';
+import productIcon from '../../../img/products.svg';
+import customerIcon from '../../../img/customers.svg';
+import profileIcon from '../../../img/profile.svg';
+import settingIcon from '../../../img/settings.svg';
 
 const Sidebar = () => {
   return (

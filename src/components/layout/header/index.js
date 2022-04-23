@@ -1,9 +1,9 @@
 import React from "react";
 import "./header.scss";
 import { Container, Row, Col } from "react-bootstrap";
-import profile from "../../img/profile-id.webp";
-import flagImg from "../../img/flag.webp";
-import bellIcon from "../../img/notification.png";
+import profile from "../../../img/profile-id.webp";
+import flagImg from "../../../img/flag.webp";
+import bellIcon from "../../../img/notification.png";
 import {FiSearch} from 'react-icons/fi'
 const Header = () => {
   return (

@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from '../../components/layout/layout';
 import './home.scss';
 import {Container, Row, Col} from "react-bootstrap";
 import {BsArrowUpRight, BsArrowDownRight, BsThreeDots} from 'react-icons/bs';
@@ -12,9 +13,11 @@ import InvoiceTable from '../../components/invoice-table';
 
 
 
+
 const Home = () => {
   return (
-    <div className="home-page mt-5">
+    <Layout>
+<div className="home-page mt-5">
         <Container>
           <Row>
             <Col lg={9}>
@@ -196,6 +199,8 @@ const Home = () => {
           </Row>
         </Container>
     </div>
+    </Layout>
+    
   )
 }
 
