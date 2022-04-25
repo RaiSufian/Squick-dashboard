@@ -10,10 +10,6 @@ import DemoLine from '../../components/salesAnalytics';
 import salerImg from '../../img/profile-id.webp';
 import {GrDocumentDownload} from 'react-icons/gr'
 import InvoiceTable from '../../components/invoice-table';
-
-
-
-
 const Home = () => {
   return (
     <Layout>

@@ -2,12 +2,11 @@ import React from "react";
 import "./sidebar.scss";
 import Logo from "../../../img/image 1.png";
 import bashboardWhite from '../../../img/dashboard.png';
-import salesIcon from '../../../img/sales.svg';
-import productIcon from '../../../img/products.svg';
-import customerIcon from '../../../img/customers.svg';
-import profileIcon from '../../../img/profile.svg';
-import settingIcon from '../../../img/settings.svg';
-
+import {BiWalletAlt} from 'react-icons/bi'
+import {HiOutlineShoppingBag} from 'react-icons/hi';
+import {CgShoppingBag} from 'react-icons/cg';
+import {BiUser} from "react-icons/bi";
+import {FiSettings} from "react-icons/fi"
 const Sidebar = () => {
   return (
     <div className="sidebar px-3">
@@ -21,19 +20,19 @@ const Sidebar = () => {
               <img src={bashboardWhite} alt="icons" className="img-fluid"/> Dashboard</div>
           </li>
           <li>
-            <div className="nav-items"><img src={salesIcon} alt="icons"  className="img-fluid" /> Sales</div>
+            <div className="nav-items"><BiWalletAlt/> Sales</div>
           </li>
           <li>
-            <div className="nav-items"><img src={productIcon} alt="icons"  className="img-fluid"/> Products</div>
+            <div className="nav-items"><HiOutlineShoppingBag/> Products</div>
           </li>
           <li>
-            <div className="nav-items"><img src={customerIcon} alt="icons"  className="img-fluid"/> Customer</div>
+            <div className="nav-items"><CgShoppingBag/> Customer</div>
           </li>
           <li>
-            <div className="nav-items"><img src={profileIcon} alt="icons"  className="img-fluid"/> Profile</div>
+            <div className="nav-items"><BiUser/> Profile</div>
           </li>
           <li>
-            <div className="nav-items"><img src={settingIcon} alt="icons"  className="img-fluid"/> Settings</div>
+            <div className="nav-items"><FiSettings/> Settings</div>
           </li>
         </ul>
       </div>
