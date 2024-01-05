@@ -33,7 +33,7 @@ const Login = () => {
     }
 const formSubmit =(e)=>{
   e.preventDefault();
-  if(data.email === "admin@gmail.com" && data.pass === "12345678"){
+  if(data.email === "" && data.pass === ""){
     navigate("/deshboard");
   }
   else{
